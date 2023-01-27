@@ -7,7 +7,7 @@ from tensorflow import keras
 from fastapi.middleware.cors import CORSMiddleware
 
 
-model_path = "./model/model/"
+model_path = "/code/api/model/model/"
 
 MODEL = keras.models.load_model(model_path)
 
